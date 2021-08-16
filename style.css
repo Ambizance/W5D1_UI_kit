@@ -1,0 +1,445 @@
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+.primary {
+	background-color: #FFB69C;
+}
+
+.secondary{
+    background-color: #FFF599; 
+}
+
+.light{
+    background-color: #C6C6C6;
+}
+
+.medium-light{
+    background-color: #808080;
+
+}
+
+.dark{
+    background-color: #4B4B4C;
+}
+
+.text-primary {
+  color: black;	
+}
+
+.text-secondary{
+    color: darkred; 
+}
+
+
+
+.warning{
+    background-color: #FED9B7;
+}
+
+.danger{
+    background-color: #F07167;
+}
+
+.success{
+    background-color: #97CA91;
+}
+
+.info{
+    background-color: #70A5FF;
+}
+
+
+/************************/
+/* 	    TYPOGRAPHIES        */
+/************************/
+
+
+.h-policy{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+}
+
+.text-policy{
+    font-family:'Times New Roman', Times, serif ;
+    color:black;
+}
+
+h1{
+    color: #685369;
+}
+
+h2{
+    color: #755D77;
+}
+
+h3{
+    color: #826783;
+}
+
+h4{
+    color: #8E7290;
+}
+
+h5{
+    color: #997E9A;
+}
+
+h6{
+    color: #A38BA4;
+}
+
+p{
+    font-size: medium;
+    font-weight: 100;
+    color: black;
+}
+
+lead{
+    font-size: large;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    
+}
+
+blockquote{
+    font-style:italic ;
+    font-size: small;
+    color: #525252;
+}
+
+ul,ol{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+
+/************************/
+/* 	    BOUTONS        */
+/************************/
+
+.btn-lg-primary{
+    display: inline-block;
+    background-color: #f6c7e7;    
+    border-radius: 50px;
+    padding: 15px 25px;
+    border-color: #f020aa;
+    ;
+    opacity: 80%;
+
+
+    text-align: center;
+
+    font-size: large;
+    font-weight:bold;
+    color: #f020aa;
+}
+
+.btn-lg-warning{
+    display: inline-block;
+    background-color: #f1c397;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border-color: #572b03;
+    opacity: 80%;
+
+
+    text-align: center;
+
+    font-size: large;
+    font-weight:bold;
+    color: #572b03;
+}
+
+.btn-lg-danger{
+    display: inline-block;
+    background-color: #F07167;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border-color: #450E09;
+    opacity: 80%;
+
+
+    text-align: center;
+
+    font-size: large;
+    font-weight:bold;
+    color: #450E09;
+}
+
+.btn-lg-info{
+    display: inline-block;
+    background-color: #70A5FF;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border-color: #1A273D;
+    opacity: 80%;
+
+
+    text-align: center;
+
+    font-size: large;
+    font-weight:bold;
+    color: #1A273D;
+}
+
+.btn-lg-success{
+    display: inline-block;
+    background-color: #97CA91;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border-color: #174b0e;
+    opacity: 80%;
+
+
+    text-align: center;
+
+    font-size: large;
+    font-weight:bold;
+    color: #174b0e;
+}
+
+.btn-primary{
+    display: inline-block;
+    background-color: #f6c7e7;
+    border-radius: 50px;
+    padding: 10px 18px;
+    border-color: #f020aa;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #f020aa;
+
+    cursor: pointer;
+}
+
+.btn-warning{
+    display: inline-block;
+    background-color: #f1c397;
+    border-radius: 50px;
+    padding: 10px 18px;
+    border-color: #572b03;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #572b03;
+
+    cursor: pointer;
+}
+
+.btn-danger{
+
+    display: inline-block;
+    background-color: #F07167;
+    border-radius: 50px;
+    padding: 10px 18px;
+    border-color: #450E09;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #450E09;
+}
+
+.btn-info{
+    display: inline-block;
+    background-color: #70A5FF;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #1A273D
+    ;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #1A273D;
+}
+
+.btn-success{
+
+    display: inline-block;
+    background-color: #97CA91;
+    border-radius: 50px;
+    padding: 10px 18px;
+    border-color: #174b0e;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #174b0e;
+}
+.btn-sm-primary{
+    display: inline-block;
+    background-color: #f6c7e7;
+    border-radius: 50px;
+    padding: 7px 10px;
+    border-color: #f020aa;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: small;
+    font-weight:bold;
+    color: #f020aa;
+}
+
+.btn-sm-warning{
+    display: inline-block;
+    background-color: #f1c397;
+    border-radius: 50px;
+    padding: 7px 10px;
+    border-color: #572b03;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: small;
+    font-weight:bold;
+    color: #572b03;
+}
+
+.btn-sm-danger{
+    display: inline-block;
+    background-color: #F07167;
+    border-radius: 50px;
+    padding: 7px 10px;
+    border-color: #450E09;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: small;
+    font-weight:bold;
+    color: #450E09;
+}
+
+.btn-sm-info{
+    display: inline-block;
+    background-color: #70A5FF;
+    border-radius: 50px;
+    padding: 7px 10px;
+    border-color: #1A273D;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: small;
+    font-weight:bold;
+    color: #1A273D;
+}
+
+.btn-sm-success{
+    display: inline-block;
+    background-color: #97CA91;
+    border-radius: 50px;
+    padding: 7px 10px;
+    border-color: #174b0e;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: small;
+    font-weight:bold;
+    color: #174b0e;
+}
+
+.btn-outline-primary{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #f020aa;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #f020aa;
+}
+
+.btn-outline-warning{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #572b03;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #572b03;
+}
+
+.btn-outline-danger{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #F07167;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #F07167;
+}
+
+.btn-outline-info{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #70A5FF;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #70A5FF;
+}
+
+.btn-outline-success{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color: #1A273D;
+    opacity: 80%;
+
+    text-align: center;
+
+    font-size: medium;
+    font-weight:bold;
+    color: #174b0e;
+}
+
+
+
+Voici les types de boutons que tu devras faire :
+
+Les outline
+Les petits (sm) et grand lg
+
+
+/************************/
+/* 	    FORMULAIRES        */
+/************************/
