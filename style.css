@@ -432,14 +432,38 @@ ul,ol{
     color: #174b0e;
 }
 
+/************************/
+/* 	   FORMULAIRES      */
+/************************/
 
-
-Voici les types de boutons que tu devras faire :
-
-Les outline
-Les petits (sm) et grand lg
+input{
+    width: 50%;
+    padding: 10px 35px;
+    margin: 8px 0;
+    box-sizing:content-box;
+    border-radius: 5px;
+    border-color: rgb(179, 179, 255);
+    background-color: rgba(205, 205, 255, 0.534);
+    border-width: 2px;
+    font-style: italic;
+    font-size: 100% ;
+    padding-block-start: 10px;
+    
+}
 
 
 /************************/
-/* 	    FORMULAIRES        */
+/* 	      ICONES        */
 /************************/
+
+.icone-lg{
+font-size: 15px;
+}
+
+.icone-md{
+font-size: 35px;
+}
+
+.icone-sm{
+font-size: 50px;
+}
